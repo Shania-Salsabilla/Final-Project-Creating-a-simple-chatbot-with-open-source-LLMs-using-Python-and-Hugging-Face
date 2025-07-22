@@ -8,6 +8,7 @@ Proyek ini bertujuan untuk membangun chatbot sederhana menggunakan model bahasa 
 ChatBot adalah program komputer yang dapat melakukan percakapan dengan manusia melalui teks. Di balik layar, ChatBot ini menggunakan komponen:
 - Transformer – struktur jaringan saraf yang digunakan untuk menangkap hubungan antar kata dalam kalimat.
 - LLM (Large Language Model) – model besar yang telah dilatih dengan jutaan hingga miliaran data teks, dan mampu menghasilkan bahasa manusia yang alami.
+
 Kedua teknologi ini bekerja sama untuk menerima masukan dari pengguna, memprosesnya, dan memberikan respons yang relevan dan alami.
 
 🧩 Ilustrasi Proses Chatbot:
@@ -20,3 +21,11 @@ User Input → Tokenization → Model Inference → Detokenization → ChatBot O
 - Dibuat dalam skala kecil sehingga ideal sebagai prototipe edukatif
 
 📌 Contoh Hasil Percakapan:
+> Me: Who is the president of the United States?
+🤖 Bot: I am not sure who the president is, but I do know that Donald Trump is the current president.
+> Me: What is the capital of France?
+🤖 Bot: The capital is Paris, France. It is the most populous city in France.
+> Me: What do you think about artificial intelligence?
+🤖 Bot: I don't know much about it, but it sounds interesting. Do you have any hobbies?
+> Me: Do you have a favorite movie?
+🤖 Bot: I love movies. My favorite movie of all time is The Godfather. What is yours?
