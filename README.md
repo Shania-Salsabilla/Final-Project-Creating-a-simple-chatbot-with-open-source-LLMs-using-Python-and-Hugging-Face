@@ -4,18 +4,17 @@ Di dunia modern ini, teknologi percakapan berbasis kecerdasan buatan (AI) memain
 
 Proyek ini bertujuan untuk membangun chatbot sederhana menggunakan model bahasa besar (LLM) berbasis transformer, yang didukung oleh library Hugging Face Transformers dan ditulis dengan Python.
 
-🔍 Apa Itu ChatBot Berbasis LLM?
+🔍 Apa Itu ChatBot Berbasis LLM?<br>
 ChatBot adalah program komputer yang dapat melakukan percakapan dengan manusia melalui teks. Di balik layar, ChatBot ini menggunakan komponen:
 - Transformer – struktur jaringan saraf yang digunakan untuk menangkap hubungan antar kata dalam kalimat.
-- LLM (Large Language Model) – model besar yang telah dilatih dengan jutaan hingga miliaran data teks, dan mampu menghasilkan bahasa manusia yang alami.
-
+- LLM (Large Language Model) – model besar yang telah dilatih dengan jutaan hingga miliaran data teks, dan mampu menghasilkan bahasa manusia yang alami.<br>
 Kedua teknologi ini bekerja sama untuk menerima masukan dari pengguna, memprosesnya, dan memberikan respons yang relevan dan alami.
 
-🧩 Ilustrasi Proses Chatbot:
-User Input → Tokenization → Model Inference → Detokenization → ChatBot Output
+🧩 Ilustrasi Proses Chatbot:<br>
+User Input → Tokenization → Model Inference → Detokenization → ChatBot Output<br>
 
-✅ The Result:
-⚡ Dengan memanfaatkan model facebook/blenderbot-400M-distill, chatbot ini mampu:
+✅ The Result:<br>
+⚡ Dengan memanfaatkan model facebook/blenderbot-400M-distill, chatbot ini mampu:<br>
 - Memproses masukan dari pengguna secara kontekstual
 - Menghasilkan jawaban yang koheren berdasarkan riwayat percakapan
 - Dibuat dalam skala kecil sehingga ideal sebagai prototipe edukatif
